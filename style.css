@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Oswald:wght@200&family=Outfit:wght@400;800&family=Red+Hat+Display:wght@400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color:  hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    background-color:    hsl(245, 75%, 52%);
+    color: white;
+    padding: 16px 4px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 40px;
+    font-weight: 900;
+    
+}
+.music-audio{
+    display: flex;
+    background-color:  hsl(225, 100%, 98%) ;
+    margin: 20px 40px;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cancel-link{
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+    opacity: 0.5;
+}
+.center-paragraph{
+    margin: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.icon{
+    background-color: hsl(225, 100%, 98%);
+    margin-right: 15px;
+    background: none;
+}
+.music-bar{
+    display: flex;
+    
+    
+}
+.illustration{
+    height: 150px;
+}
+.change{
+    color: hsl(223, 47%, 23%) ;
+    font-weight: 600;
+}
+.bold-text{
+    font-weight: 700;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 15px;
+    opacity: 0.7;
+}
+.cancel-link:hover{
+    opacity: 0.9;
+}
